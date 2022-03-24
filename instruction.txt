@@ -1,0 +1,15 @@
+
+sudo docker-compose build
+sudo docker-compose up -d
+
+docker logs --follow bot_slava
+
+
+sudo docker exec -ti bot_slava bash
+###################################
+
+python /usr/local/WB/WS/new_app.py > /usr/local/WB/data/MOB_APP_log.txt 2>&1 &
+python /usr/local/WB/WS/new_app.py
+
+
+ps aux | grep python

@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:
+    bot_slava:
+        build: .docker/dashboard
+        volumes:
+            - ./.docker/data:/usr/local/WB/data
+            - ./WS:/usr/local/WB/WS
+            - ./BACKEND:/usr/local/WB/BACKEND
+        container_name: bot_slava
+        hostname: bot_slava
+        restart: always
+        ports:
+            - "3039:3039"
+        environment:
+            PORT: 3039
+            DATABASE_MONGO_URL: 'mongodb://YOUR_IP'
+

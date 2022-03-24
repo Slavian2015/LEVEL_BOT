@@ -1,0 +1,68 @@
+{
+    "ENJUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "SANDUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "MATICUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "MANAUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "DOGEUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "XMRUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "ADAUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "RUNEUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "EOSUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "LUNAUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    },
+    "WAVESUSDT": {
+        "status": "disabled",
+        "lot": 2000,
+        "leverage": 1,
+        "timeframe": 1
+    }
+}
